@@ -1,9 +1,13 @@
 *
 !*/
 
+# Python
 !*.py
 !.gitignore
 !README.md
 !requirements.txt
-
 venv/
+
+# Docker
+!Dockerfile
+!docker-compose.yml
