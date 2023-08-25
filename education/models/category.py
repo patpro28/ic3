@@ -11,6 +11,10 @@ class Category(models.Model):
     
     def __str__(self):
         return self.name
+    
+    class Meta:
+        verbose_name_plural = _("categories")
+        ordering = ['name']
 
 class Level(models.Model):
     name = models.CharField(_('name'), max_length=50, unique=True,
@@ -20,3 +24,7 @@ class Level(models.Model):
     
     def __str__(self):
         return self.name
+    
+    class Meta:
+        verbose_name_plural = _("levels")
+        ordering = ['name']

@@ -11,3 +11,6 @@ venv/
 # Docker
 !Dockerfile
 !docker-compose.yml
+
+# Sample Data
+!*.yml
